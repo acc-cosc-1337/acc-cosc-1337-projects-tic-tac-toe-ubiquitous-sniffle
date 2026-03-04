@@ -28,9 +28,6 @@ export default function App() {
         </span>
       </div>
 
-      <p style={{ marginTop: 16, opacity: 0.7 }}>
-        This UI is just a demo harness. The engine lives in <code>src/engine/</code>.
-      </p>
     </div>
   )
 }

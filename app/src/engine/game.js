@@ -1,4 +1,3 @@
-import { Board } from './board.js'
 
 const VALID_PLAYERS = new Set(['X', 'O'])
 
@@ -10,7 +9,6 @@ export class Game {
     this._startingPlayer = startingPlayer
     this._currentPlayer = startingPlayer
     this._status = 'IN_PROGRESS'
-    this._board = new Board()
   }
 
   currentPlayer() {
@@ -21,5 +19,4 @@ export class Game {
     return this._status
   }
 
-  // Future slices will add: move(), snapshot(), etc.
 }
